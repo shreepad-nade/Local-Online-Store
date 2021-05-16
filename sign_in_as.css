@@ -1,0 +1,137 @@
+body {
+	margin: 0px;
+	padding: 0px;
+	text-align: center;
+	background-image: url("homemade.jpg");
+	font-size: 15px;
+	color: #000;
+	font-family: sans-serif;
+	font-weight: 300;
+}
+
+#login_box {
+	position: relative;
+	margin: 5% auto;
+	color: white;
+	height: 500px;
+	width: 700px;
+	border-radius: 10%;
+	background: grey;
+	opacity: 0.9;
+	box-shadow: 20px 20px 20px rgba(0, 0, 0, 0.7);
+}
+
+.imgcontainer0
+		{
+			text-align: left;
+			margin: 24px 0 12px 0;
+		}
+img.Buyer
+		{
+			width: 50%;
+			border-radius: 10% ;
+			background-color: white;
+			text-align: center;
+			box-shadow: 20px 20px 20px rgba(0, 0, 0, 0.7);
+		}		
+
+.left_box {
+	position: absolute;
+	top: 60;
+	left:30;
+	
+	box-sizing: border-box;
+	padding: 40px;
+	width: 500px;
+	height: 400px;
+}
+
+.imgcontainer0:hover .overlay
+{
+	transform: scale(1);
+}
+
+.imgcontainer1
+		{
+			text-align:center;
+			margin: 24px 0 12px 0;
+		}
+img.Seller
+		{
+			align:center;
+			width: 50%;
+			border-radius: 10%;
+			background-color: white;
+			box-shadow: 20px 20px 20px rgba(0, 0, 0, 0.7);
+		}
+.txt1{
+	text-align: left;
+	text-indent: 25px;
+}		
+
+.right-box {
+	position: absolute;
+	top: 60;
+	right: -80;
+	box-sizing: border-box;
+	padding: 40px;
+	width: 500px;
+	height: 400px;
+	background-size: cover;
+	background-position: center;
+}
+h1 {
+margin: 0 0 20px 0;
+font-weight: 300;
+font-size: 28px;
+}
+
+.or {
+	position: absolute;
+	top: 180px;
+	left: 340;
+	width: 40px;
+	height: 40px;
+	background: white;
+	color: black;
+	border-radius: 50%;
+	box-shadow: 0 2px 4px rgba(0, 0, 0, 0.6);
+	line-height: 40px;
+	text-align: center;
+	}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 10;
+  right: 10;
+  background-color:transparent;
+  padding: 40px;
+  overflow: hidden;
+  width: 500px;
+  height:400px;
+  transform: scale(0);
+  transition: .3s ease;
+}
+button {
+  background-color: black; /* Green */
+  border-radius: 0;
+  color: white;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  margin-left: 25px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+
+button:hover
+		{
+			opacity: 0.5;
+			 background-color: #0000;
+
+             color: black;   
+		}
